@@ -9,12 +9,18 @@ export default createGlobalStyle`
 
     html, body, #root {
         height: 100%;
+        background-color: var(--background);
+        font-family: 'Italiana', serif;
     }
 
     *, button, input {
         border: 0;
         outline: 0;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Italiana', serif;
+    }
+
+    :root {
+        --background: #f6f6f6;
     }
 
 
